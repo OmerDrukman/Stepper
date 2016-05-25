@@ -3,9 +3,9 @@
 # ~~~~
 
 # Home page
-GET     /                           controllers.Assets.at(path="/public/views", file="Chat.html")
-GET 	/wsInterface/:username      controllers.Application.wsInterface(username : String)
-
+GET     /                           controllers.Assets.at(path="/public/views", file="StepUp.html")
+GET     /tar1                       controllers.Assets.at(path="/public/views", file="tar1.html")
+POST	/upload						controllers.Application.upload()
 
 # Map css
 GET 	/assets/css/*file			controllers.Assets.at(path="/public/stylesheets", file)
