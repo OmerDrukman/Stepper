@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="chatApp">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <title>Drukmans Chat</title>
+</head>
+<body ng-controller="chatController">
+  <h1>Drukmans Chat</h1>
+   <div class="container col-md-offset-3">
+      
+       <div class="row">
+           <div id="MainConv" class="form-contro col-md-5" rows="10"></div>
+       </div>
+       
+       <div class="row">
+           <input ng-model="username" type="text" class="form-control">
+       </div>
+       
+       <div class="row">
+           <button ng-keyup="" id="InputMessage" class="btn btn-success col-md-5" ng-click="logIn()">Submit</button>
+       </div>
+       
+    </div>
+    
+    <!-- JavaScript -->
+    <script type="text/javascript" src="/assets/js/JQuery.min.js"></script>
+    <script type="text/javascript" src="/assets/js/angular.js"></script>
+    <script type="text/javascript" src="/assets/js/hello.js"></script>
+</body>
+</html>

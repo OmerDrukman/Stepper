@@ -1,0 +1,17 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Assets.at(path="/public/views", file="Chat.html")
+GET 	/wsInterface/:username      controllers.Application.wsInterface(username : String)
+
+
+# Map css
+GET 	/assets/css/*file			controllers.Assets.at(path="/public/stylesheets", file)
+
+# Map js
+GET		/assets/js/*file			controllers.Assets.at(path="/public/javascripts", file)
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
