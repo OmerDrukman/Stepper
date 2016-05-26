@@ -16,7 +16,7 @@
                         type: 'pie'
                     },
                     title: {
-                        text: 'עוגת זמנים בזמן המבחן'
+                        text: 'התפלגות תהליכים בזמן המבחן'
                     },
                     tooltip: {
                         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -78,7 +78,7 @@
                     text: 'ניתוח שימוש במקשי דיבאג'
                 },
                 subtitle: {
-                    text: 'מקור: תלמיד'
+                    text: 'תר"ץ 1'
                 },
                 xAxis: {
                     categories: keyCategories
@@ -137,13 +137,14 @@
             brightness;
 
 
-    // Build the data arrays
+            // Build the data arrays
     for (i = 0; i < dataLen; i += 1) {
 
         // add browser data
         browserData.push({
             name: categories[i],
-            y: data[i].y
+            y: data[i].y,
+            color: data[i].color
         });
 
         // add version data
@@ -152,7 +153,8 @@
             brightness = 0.2 - (j / drillDataLen) / 5;
             versionsData.push({
                 name: data[i].drilldown.categories[j],
-                y: data[i].drilldown.data[j]
+                y: data[i].drilldown.data[j],
+                color: Highcharts.Color(data[i].color).brighten(brightness).get()
             });
         }
     }
@@ -163,10 +165,10 @@
             type: 'pie'
         },
         title: {
-            text: 'Browser market share, January, 2015 to May, 2015'
+            text: 'התפלגות החלונות הפעילים'
         },
         subtitle: {
-            text: 'Source: <a href="http://netmarketshare.com/">netmarketshare.com</a>'
+            text: 'תר"ץ 1'
         },
         yAxis: {
             title: {

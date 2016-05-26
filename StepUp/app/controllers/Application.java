@@ -1,12 +1,22 @@
 package controllers;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 
+import jdk.nashorn.internal.parser.JSONParser;
 import play.*;
+import play.libs.Json;
 import play.mvc.*;
+import scala.util.parsing.json.JSONObject;
 import views.html.*;
 
 import com.fasterxml.jackson.databind.JsonNode;
@@ -31,30 +41,52 @@ public class Application extends Controller {
         }
         
         File fileData = filePart.getFile();
+        File newFile = new File("C:\\Users\\Omer\\Documents\\Projects\\Stepper\\StepUp\\public\\data\\tar1.txt");
  
         // handle file
-        try {
-
-			String content = "This is the content to write into file";
-
-			File file = new File("/public/data/tar1.txt");
-
-			// if file doesnt exists, then create it
-			if (!file.exists()) {
-				file.createNewFile();
-			}
-
-			FileWriter fw = new FileWriter(file.getAbsoluteFile());
-			BufferedWriter bw = new BufferedWriter(fw);
-			bw.write(content);
-			bw.close();
-
-			System.out.println("Done");
-
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+        InputStream input = null;
+        OutputStream output = null;
         
-        return ok();    
+        try {
+        	input = new FileInputStream(fileData);
+        	output = new FileOutputStream(newFile);
+        	byte[] buf = new byte[1024];
+        	int bytesRead;
+        	while((bytesRead = input.read(buf)) > 0) {
+        		output.write(buf, 0, bytesRead);
+        	}
+        } catch (Exception e) {
+        	return badRequest("Invalid file.");
+		} finally {
+        	try {
+				input.close();
+				output.close();
+			} catch (IOException e) {
+				return badRequest("Invalid file.");
+			}
+        	
+        }
+        
+        return redirect("/");    
+    }
+    
+    public static Result getWorkTime() {
+    	
+    	String result = "";
+        try {
+            BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Omer\\Documents\\Projects\\Stepper\\StepUp\\public\\data\\tar1.txt"));
+            StringBuilder sb = new StringBuilder();
+            String line = br.readLine();
+            line = "[";
+            while (line != null) {
+                sb.append(line);
+                line = br.readLine();
+            }
+            result = sb.toString();
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
+
+        return ok(result);
     }
 }

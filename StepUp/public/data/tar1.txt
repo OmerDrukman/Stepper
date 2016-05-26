@@ -1,0 +1,489 @@
+[
+  {
+    "maavarim": [
+      {
+        "time": 0.06666667,
+        "process": "Analyzer",
+        "file": "C:\\Users\\zaide\\Documents\\Hackathon\\Analyzer\\bin\\Debug\\Analyzer.exe"
+      },
+      {
+        "time": 0.05,
+        "process": "devenv",
+        "file": "SolveMap - Microsoft Visual Studio"
+      },
+      {
+        "time": 0.116666667,
+        "process": "devenv",
+        "file": "SolveMap (Debugging) - Microsoft Visual Studio"
+      },
+      {
+        "time": 0.05,
+        "process": "devenv",
+        "file": "SolveMap - Microsoft Visual Studio"
+      },
+      {
+        "time": 0.0166666675,
+        "process": "chrome",
+        "file": "Step Up - Google Chrome"
+      },
+      {
+        "time": 0.0333333351,
+        "process": "chrome",
+        "file": "plotly.js | JavaScript Graphing Library - Google Chrome"
+      },
+      {
+        "time": 0.05,
+        "process": "chrome",
+        "file": "GetAsyncKeyState function (Windows) - Google Chrome"
+      },
+      {
+        "time": 0.06666667,
+        "process": "chrome",
+        "file": "unity random examples - Google Search - Google Chrome"
+      },
+      {
+        "time": 0.0166666675,
+        "process": "chrome",
+        "file": "unity random examples - Google Search - Google Chrome"
+      },
+      {
+        "time": 0.166666672,
+        "process": "explorer",
+        "file": ""
+      },
+      {
+        "time": 0.0333333351,
+        "process": "ApplicationFrameHost",
+        "file": "Microsoft Store Official Site - Free Shipping, Free Returns ‎- Microsoft Edge"
+      },
+      {
+        "time": 0.0333333351,
+        "process": "ApplicationFrameHost",
+        "file": "Welcome to Twitter - Login or Sign up ‎- Microsoft Edge"
+      },
+      {
+        "time": 0.05,
+        "process": "devenv",
+        "file": "SolveMap (Debugging) - Microsoft Visual Studio"
+      },
+      {
+        "time": 0.1,
+        "process": "explorer",
+        "file": ""
+      },
+      {
+        "time": 0.1,
+        "process": "devenv",
+        "file": "SolveMap (Debugging) - Microsoft Visual Studio"
+      },
+      {
+        "time": 0.0333333351,
+        "process": "explorer",
+        "file": ""
+      },
+      {
+        "time": 0.0333333351,
+        "process": "devenv",
+        "file": "SolveMap (Debugging) - Microsoft Visual Studio"
+      },
+      {
+        "time": 0.06666667,
+        "process": "WINWORD",
+        "file": "Document2 - Word (Unlicensed Product)"
+      },
+      {
+        "time": 0.06666667,
+        "process": "devenv",
+        "file": "SolveMap (Debugging) - Microsoft Visual Studio"
+      },
+      {
+        "time": 0.0166666675,
+        "process": "devenv",
+        "file": "SolveMap - Microsoft Visual Studio"
+      },
+      {
+        "time": 0.1,
+        "process": "WINWORD",
+        "file": "Document1 - Word (Unlicensed Product)"
+      }
+    ]
+  },
+  {
+    "processesSum": [
+      {
+        "name": "Analyzer",
+        "y": 0.06666667
+      },
+      {
+        "name": "devenv",
+        "y": 0.483333349
+      },
+      {
+        "name": "SolveMap.vshost",
+        "y": 0.0
+      },
+      {
+        "name": "chrome",
+        "y": 0.183333352
+      },
+      {
+        "name": "Idle",
+        "y": 0.0
+      },
+      {
+        "name": "explorer",
+        "y": 0.3
+      },
+      {
+        "name": "ApplicationFrameHost",
+        "y": 0.06666667
+      },
+      {
+        "name": "WINWORD",
+        "y": 0.166666672
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Analyzer",
+      "devenv",
+      "SolveMap.vshost",
+      "chrome",
+      "Idle",
+      "explorer",
+      "ApplicationFrameHost",
+      "WINWORD"
+    ],
+    "data": [
+      {
+        "y": 13.333334,
+        "color": "#7cb5ec",
+        "drilldown": {
+          "name": "Analyzer",
+          "categories": [
+            "C:\\Users\\zaide\\Documents\\Hackathon\\Analyzer\\bin\\Debug\\Analyzer.exe"
+          ],
+          "data": [
+            13.333334
+          ],
+          "color": "#7cb5ec"
+        }
+      },
+      {
+        "y": 0,
+        "color": "#434348",
+        "drilldown": {
+          "name": "devenv",
+          "categories": [],
+          "data": [],
+          "color": "#434348"
+        }
+      },
+      {
+        "y": 0,
+        "color": "#90ed7d",
+        "drilldown": {
+          "name": "SolveMap.vshost",
+          "categories": [],
+          "data": [],
+          "color": "#90ed7d"
+        }
+      },
+      {
+        "y": 20.0000019,
+        "color": "#f7a35c",
+        "drilldown": {
+          "name": "chrome",
+          "categories": [
+            "Step Up - Google Chrome",
+            "plotly.js | JavaScript Graphing Library - Google Chrome",
+            "GetAsyncKeyState function (Windows) - Google Chrome"
+          ],
+          "data": [
+            3.33333349,
+            6.666667,
+            10.0
+          ],
+          "color": "#f7a35c"
+        }
+      },
+      {
+        "y": 0,
+        "color": "#8085e9",
+        "drilldown": {
+          "name": "Idle",
+          "categories": [],
+          "data": [],
+          "color": "#8085e9"
+        }
+      },
+      {
+        "y": 0,
+        "color": "#f15c80",
+        "drilldown": {
+          "name": "explorer",
+          "categories": [],
+          "data": [],
+          "color": "#f15c80"
+        }
+      },
+      {
+        "y": 13.333334,
+        "color": "#e4d354",
+        "drilldown": {
+          "name": "ApplicationFrameHost",
+          "categories": [
+            "10 Essential Apps for Windows 10 ‎- Microsoft Edge",
+            "Microsoft Store Official Site - Free Shipping, Free Returns ‎- Microsoft Edge",
+            "Welcome to Twitter - Login or Sign up ‎- Microsoft Edge"
+          ],
+          "data": [
+            0.0,
+            6.666667,
+            6.666667
+          ],
+          "color": "#e4d354"
+        }
+      },
+      {
+        "y": 13.333334,
+        "color": "#2b908f",
+        "drilldown": {
+          "name": "WINWORD",
+          "categories": [
+            "Document2 - Word (Unlicensed Product)"
+          ],
+          "data": [
+            13.333334
+          ],
+          "color": "#2b908f"
+        }
+      }
+    ]
+  },
+  {
+    "keystats": [
+      {
+        "Key": "F5",
+        "Time": "2016-05-26T07:41:56.6193135+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:42:06.2015134+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:42:07.4221005+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:42:21.2832903+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:42:21.6872278+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:42:21.8911667+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:42:22.0938521+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:42:22.296314+03:00"
+      },
+      {
+        "Key": "F5",
+        "Time": "2016-05-26T07:42:22.7020784+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:42:23.1154534+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:42:23.3242046+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:42:23.528116+03:00"
+      },
+      {
+        "Key": "F5",
+        "Time": "2016-05-26T07:42:23.7303651+03:00"
+      },
+      {
+        "Key": "F5",
+        "Time": "2016-05-26T07:42:23.9386433+03:00"
+      },
+      {
+        "Key": "F5",
+        "Time": "2016-05-26T07:42:24.1412232+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:42:24.343978+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:42:24.5593946+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:42:24.7651072+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:42:24.9674455+03:00"
+      },
+      {
+        "Key": "F5",
+        "Time": "2016-05-26T07:42:25.1698831+03:00"
+      },
+      {
+        "Key": "F5",
+        "Time": "2016-05-26T07:42:25.3749366+03:00"
+      },
+      {
+        "Key": "F5",
+        "Time": "2016-05-26T07:42:25.5813476+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:42:25.5813476+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:42:25.7859481+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:42:25.9882798+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:42:26.1951192+03:00"
+      },
+      {
+        "Key": "F5",
+        "Time": "2016-05-26T07:42:45.5568492+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:16.960942+03:00"
+      },
+      {
+        "Key": "F5",
+        "Time": "2016-05-26T07:43:17.3652612+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:19.2026369+03:00"
+      },
+      {
+        "Key": "F5",
+        "Time": "2016-05-26T07:43:19.4074874+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:19.4074874+03:00"
+      },
+      {
+        "Key": "F5",
+        "Time": "2016-05-26T07:43:19.620114+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:19.8239625+03:00"
+      },
+      {
+        "Key": "F5",
+        "Time": "2016-05-26T07:43:20.0417839+03:00"
+      },
+      {
+        "Key": "F5",
+        "Time": "2016-05-26T07:43:20.2478344+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:20.249924+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:20.4545445+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:20.6653293+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:21.4783418+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:21.6865243+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:21.8922971+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:22.1004376+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:22.307771+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:22.5129635+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:22.7242023+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:22.9293313+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:23.1457476+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:23.351115+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:23.5558186+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:23.7617239+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:23.9706534+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:24.1875926+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:24.39324+03:00"
+      },
+      {
+        "Key": "F10",
+        "Time": "2016-05-26T07:43:24.803666+03:00"
+      }
+    ]
+  }
+]

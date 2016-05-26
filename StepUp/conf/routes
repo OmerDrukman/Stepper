@@ -6,6 +6,7 @@
 GET     /                           controllers.Assets.at(path="/public/views", file="StepUp.html")
 GET     /tar1                       controllers.Assets.at(path="/public/views", file="tar1.html")
 POST	/upload						controllers.Application.upload()
+GET		/getWorkTime				controllers.Application.getWorkTime()
 
 # Map css
 GET 	/assets/css/*file			controllers.Assets.at(path="/public/stylesheets", file)
